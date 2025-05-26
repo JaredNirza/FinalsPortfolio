@@ -57,6 +57,7 @@ header nav ul li a {
 }
 .quick-links a:hover {
   background: #555;
+  display: center;
 }
 .about img {
   max-width: 150px;
