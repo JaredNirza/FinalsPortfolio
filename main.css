@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background: #fff;
+  padding: 1rem;
+  margin: 0;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #eee;
+  transition: background 0.3s;
+}
+.hero:hover {
+  background: #ddd;
+}
+.quick-links a {
+  margin: 0 10px;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+.quick-links a:hover {
+  background: #555;
+}
+.about img {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+.projects article {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+.projects img {
+  max-width: 100%;
+  height: auto;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form input, form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+form button:hover {
+  background: #555;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+  }
+  .quick-links {
+    text-align: center;
+  }
+}
